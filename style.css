@@ -1,8 +1,27 @@
 a {
-    color: #FF5733;
+/* The code in these brackets are altering the 'li' on index.html*/
+    color: rgb(15, 4, 1); /*I can find more colors at htmlcolorcode.com*/
     font-size: 24px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: fantasy;
+    display: block;
+    padding: 14px 16px; /* 14 pixels for the side and 16 pixels for the top... this is going to give space between the listed items*/
+    text-decoration: none; /* This gets rid of the underline of the listed items*/
 }
-ul {
+li 
+{
+    float: right; /* This is going to make the listed items essentially shift right like in a word document*/
+}
+ul 
+{
     background-color: teal;
+    list-style-type: none; /* this decides what the list looks like... or in this case selecting none gets rid of the bullet points for our listed items*/
+    overflow: hidden;
+    margin 0;
+    padding: 0; /* i think this makes the background color bar thicker or smaller*/
+}
+.active /* This is considered our "most specific" which is why its last.*/
+        /* this is the active 'class'*/
+        /* one specific element is slightly different from all the other elements styled the same way */
+{
+    background-color: aquamarine;
 }
