@@ -7,21 +7,71 @@ a {
     padding: 14px 16px; /* 14 pixels for the side and 16 pixels for the top... this is going to give space between the listed items*/
     text-decoration: none; /* This gets rid of the underline of the listed items*/
 }
-li 
-{
+li {
     float: right; /* This is going to make the listed items essentially shift right like in a word document*/
 }
-ul 
-{
+ul {
     background-color: teal;
     list-style-type: none; /* this decides what the list looks like... or in this case selecting none gets rid of the bullet points for our listed items*/
     overflow: hidden;
     margin 0;
     padding: 0; /* i think this makes the background color bar thicker or smaller*/
 }
-.active /* This is considered our "most specific" which is why its last.*/
+.active{ /* This is considered our "most specific" which is why its last.*/
         /* this is the active 'class'*/
         /* one specific element is slightly different from all the other elements styled the same way */
-{
+
     background-color: aquamarine;
 }
+
+p {
+    font-size: 24px;
+    font-family: fantasy;
+    padding: 10px 60px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer{
+    background-color: teal;
+}
+#footText {
+    color: rgb(15, 4, 1); 
+}
+#bdg1 {
+    background-image: url(images/bdg1.jpg);
+}
+#bdg2{
+    background-image: url(images/bdg2.jpg);
+}
+#bdg3{
+    background-image: url(images/bdg3.jpg);
+}
+.picBackdrop {
+background-position: center;
+background-size: cover;
+}
+h1 {
+    margin: 0;
+    padding: 120px 10px;
+    height: 60px;
+    text-align: center;
+    color: white;
+    font-size: 72px;
+    font-family: fantasy; 
+}
+
+
+
+
+
+
+
+
+
+
+
