@@ -6,6 +6,7 @@ a {
     display: block;
     padding: 14px 16px; /* 14 pixels for the side and 16 pixels for the top... this is going to give space between the listed items*/
     text-decoration: none; /* This gets rid of the underline of the listed items*/
+    /* the code in this is linked to line 6 in index.html*/
 }
 li {
     float: right; /* This is going to make the listed items essentially shift right like in a word document*/
@@ -18,20 +19,20 @@ ul {
     padding: 0; /* i think this makes the background color bar thicker or smaller*/
 }
 .active{ /* This is considered our "most specific" which is why its last.*/
-        /* this is the active 'class'*/
+        /* this is the active 'class .... this highlights the option we selected in the nav bar'*/
         /* one specific element is slightly different from all the other elements styled the same way */
 
     background-color: aquamarine;
 }
 
-p {
-    font-size: 24px;
+p { /* this is changing all of the paragraph code associated with my HTML website */
+    font-size: 24px; 
     font-family: fantasy;
     padding: 10px 60px;
 }
 
 img {
-    display: block;
+    display: block; /* display: block; treats the image as a block and simply pushes it around the screen */
     margin-left: auto;
     margin-right: auto;
 }
@@ -42,14 +43,14 @@ footer{
 #footText {
     color: rgb(15, 4, 1); 
 }
-#bdg1 {
-    background-image: url(images/bdg1.jpg);
+#bg1 {
+    background-image: url(images/bg1.jpg);
 }
-#bdg2{
-    background-image: url(images/bdg2.jpg);
+#bg2{
+    background-image: url(images/bg2.jpg);
 }
-#bdg3{
-    background-image: url(images/bdg3.jpg);
+#bg3{
+    background-image: url(images/bg3.jpg);
 }
 .picBackdrop {
 background-position: center;
